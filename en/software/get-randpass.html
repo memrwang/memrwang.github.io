@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get RandPass - Along</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- jquery -->
+    <script src="/assets/js/jquery-3.7.0.min.js"></script>
+    <!-- bootstrap -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- style -->
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- ialong-icon -->
+    <link rel="stylesheet" href="/assets/ialong-icon/iconfont.css">
+    <script>
+        $(document).ready(function () {
+            $("#header").load("/en/layouts/header.html");
+            $("#footer").load("/en/layouts/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main -->
+    <div class="container">
+        <div class="col-md-8 mx-auto">
+            <div class="software-info row">
+                <div class="col-md-4 text-center">
+                    <img class="software-logo mb-4" src="/assets/software/get-randpass/get-randpass-logo.png" alt=""
+                        width="128" height="128">
+                </div>
+                <div class="col-md-8">
+                    <h4 class="mb-4">Get RandPass</h4>
+                    <p>Platform：Windows / macOS</p>
+                    <p>Language：English / 简体中文</p>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-dark dropdown-toggle download-btn"
+                            data-bs-toggle="dropdown">Download</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/memrwang/Get-RandPass/releases/download/software/Get-RandPass-1.0-win_x64_x86.zip">Windows</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/memrwang/Get-RandPass/releases/download/software/Get-RandPass-1.0-mac.zip">macOS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/memrwang/Get-RandPass/releases/">All Version</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="software-info-item">
+                <span class="software-info-item-title">Software Intro</span>
+                <div class="border-bottom"></div>
+                <div class="software-info-item-content col-md-8">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="/assets/software/get-randpass/get-randpass-screenshot-win-en.png"
+                                    class="d-block w-100">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="/assets/software/get-randpass/get-randpass-screenshot-mac-en.png"
+                                    class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <br />
+                    <p>Get RandPass is an open-source password generation tool that helps users easily create high-strength and secure random passwords. Random passwords are an important aspect of protecting personal and sensitive information. They are difficult to guess, thereby enhancing the security of your online and offline accounts.
+                    </p>
+                    <br />
+                    <p><b>High-Strength Password Generation: </b>Get RandPass utilizes efficient algorithms to generate random passwords, ensuring their strength and resistance to guessing. This enhances your network security and protects sensitive information, thereby improving the security of your accounts.</p>
+                    <p><b>Customizability: </b>You can customize the length of the password and the types of characters it includes, such as uppercase letters, lowercase letters, numbers, and symbols. This allows you to generate passwords that align with your account requirements or security policies.</p>
+                    <p><b>Offline Capability: </b>Get RandPass is a natively developed software that can run without an internet connection. This means you can use it anytime and anywhere, even in situations where there is no internet connectivity. You can generate secure passwords even when offline.</p>
+                    <p><b>Multi-platform Support: </b>Get RandPass is compatible with both Windows and macOS operating systems, as well as multiple languages. Users can utilize the software on different devices without any compatibility issues.</p>
+                    <br />
+                </div>
+            </div>
+            <div class="software-info-item">
+                <span class="software-info-item-title">Update Log</span>
+                <div class="border-bottom"></div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer"></div>
+</body>
+
+</html>
