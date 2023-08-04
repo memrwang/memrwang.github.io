@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageShrink - Along</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- bootstrap-icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <!-- style -->
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- ialong-icon -->
+    <link rel="stylesheet" href="/assets/ialong-icon/iconfont.css">
+    <script>
+        $(document).ready(function () {
+            $("#header").load("/en/layouts/header.html");
+            $("#footer").load("/en/layouts/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main -->
+    <div class="container">
+        <div class="col-md-8 mx-auto">
+            <div class="software-info row">
+                <div class="col-md-4 text-center">
+                    <img class="software-logo mb-4" src="/assets/software/imageshrink/imageshrink-logo.png" alt=""
+                        width="128" height="128">
+                </div>
+                <div class="col-md-8">
+                    <h4 class="mb-4">ImageShrink</h4>
+                    <p>Platform：Windows / macOS</p>
+                    <p>Language：English / 简体中文</p>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-dark dropdown-toggle download-btn"
+                            data-bs-toggle="dropdown">Download</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/memrwang/ImageShrink/releases/download/v1.1/ImageShrink-1.1-win_x64_x86.zip">Windows</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/memrwang/ImageShrink/releases/download/v1.1/ImageShrink-1.1-mac.zip">macOS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/memrwang/ImageShrink/releases/">All
+                                    Version</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="software-info-item">
+                <span class="software-info-item-title">Software Intro</span>
+                <div class="border-bottom"></div>
+                <div class="software-info-item-content col-md-8">
+                    <div id="carouselExample" class="carousel carousel-dark slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="/assets/software/imageshrink/imageshrink-screenshot-win-en.png"
+                                    class="d-block w-100">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="/assets/software/imageshrink/imageshrink-screenshot-mac-en.png"
+                                    class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <br />
+                    <p>ImageShrink is an open-source image compression software that helps users easily compress image
+                        files and reduce their file sizes. It utilizes efficient and reliable image compression
+                        solutions such as <a href="https://github.com/mozilla/mozjpeg" target="_blank">MozJPEG</a>, <a
+                            href="https://github.com/kornelski/pngquant" target="_blank">pngquant</a>, <a
+                            href="https://github.com/ImageOptim/gifski" target="_blank">gifski</a>, 
+                        <a href="https://github.com/tjko/jpegoptim" target="_blank">jpegoptim</a>, and more. It supports
+                        Windows and macOS
+                        operating systems, as well as multiple languages. The software can be used offline, allowing
+                        users to access it anytime and anywhere.
+                    </p>
+                    <br />
+                    <p><b>Image Compression: </b>It supports image formats such as JPG, PNG, GIF, and JPEG, providing
+                        efficient image compression capabilities. It can reduce the size of image files to a minimum
+                        without causing significant loss in image quality. By utilizing advanced compression algorithms,
+                        it can decrease file sizes while preserving image details, thus saving storage space.
+                    </p>
+                    <p><b>User-friendly: </b>This software features an intuitive user interface that allows users to
+                        easily understand and operate it. With just a few simple steps, users can select the image files
+                        they want to compress, set the compression parameters, and start the compression process. Even
+                        users without technical backgrounds can easily get started with the software.
+                    </p>
+                    <p><b>Batch Processing: </b>ImageShrink supports batch processing of multiple image files, allowing
+                        users to compress multiple images at once. This feature saves a significant amount of time and
+                        effort, as users do not have to process each image file individually.</p>
+                    <p><b>Multi-platform Support: </b>ImageShrink is compatible with both Windows and macOS operating
+                        systems, as well as multiple languages. Users can utilize the software on different devices
+                        without any compatibility issues.</p>
+                    <br />
+                </div>
+            </div>
+            <div class="software-info-item">
+                <span class="software-info-item-title">Update Log</span>
+                <div class="border-bottom"></div>
+                <div class="mt-4">
+                    <div class="mb-2">
+                        <p><b>v1.1</b> - 2023-8-3</p>
+                        <p>Fix known bug</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer"></div>
+</body>
+
+</html>
