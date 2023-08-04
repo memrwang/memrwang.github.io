@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageShrink - 阿龙的频道</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- jquery -->
+    <script src="/assets/js/jquery-3.7.0.min.js"></script>
+    <!-- bootstrap -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- style -->
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- ialong-icon -->
+    <link rel="stylesheet" href="/assets/ialong-icon/iconfont.css">
+    <script>
+        $(document).ready(function () {
+            $("#header").load("/layouts/header.html");
+            $("#footer").load("/layouts/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main -->
+    <div class="container">
+        <div class="col-md-8 mx-auto">
+            <div class="software-info row">
+                <div class="col-md-4 text-center">
+                    <img class="software-logo mb-4" src="/assets/software/imageshrink/imageshrink-logo.png" alt=""
+                        width="128" height="128">
+                </div>
+                <div class="col-md-8">
+                    <h4 class="mb-4">ImageShrink（图像压缩）</h4>
+                    <p>应用平台：Windows / macOS</p>
+                    <p>软件语言：简体中文 / 英文</p>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-dark dropdown-toggle download-btn"
+                            data-bs-toggle="dropdown">立即下载</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" target="_blank"
+                                    href="https://github.com/memrwang/ImageShrink/releases/download/v1.1/ImageShrink-1.1-win_x64_x86.zip">Windows</a>
+                            </li>
+                            <li><a class="dropdown-item" target="_blank"
+                                    href="https://github.com/memrwang/ImageShrink/releases/download/v1.1/ImageShrink-1.1-mac.zip">macOS</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/memrwang/ImageShrink/releases/">所有版本</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="software-info-item">
+                <span class="software-info-item-title">软件介绍</span>
+                <div class="border-bottom"></div>
+                <div class="software-info-item-content col-md-8">
+                    <div id="carouselExample" class="carousel carousel-dark slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/assets/software/imageshrink/imageshrink-screenshot-win-cn.png"
+                                    class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/software/imageshrink/imageshrink-screenshot-mac-cn.png"
+                                    class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <br />
+                    <p>ImageShrink 是一款开源的图像压缩软件，帮助用户轻松压缩图像文件，减小文件大小，采用了开源的：<a href="https://github.com/mozilla/mozjpeg"
+                            target="_blank">MozJPEG</a>、<a href="https://github.com/kornelski/pngquant"
+                            target="_blank">pngquant</a>、<a href="https://github.com/ImageOptim/gifski"
+                            target="_blank">gifski</a>、
+                        <a href="https://github.com/tjko/jpegoptim" target="_blank">jpegoptim</a>
+                        等高效和可靠的图像压缩解决方案，支持Windows和macOS操作系统以及多语言，无需联网，使得用户可以随时随地使用该软件。
+                    </p>
+                    <br />
+                    <p><b>图像压缩：</b>支持 JPG / PNG / GIF /
+                        JPEG文件格式图像，提供了高效的图像压缩功能，可以将图像文件的大小减小到最小限度，而不会对图像质量造成明显的损失。通过使用先进的压缩算法，能够在保持图像细节的同时减小文件大小，从而节省存储空间。
+                    </p>
+                    <p><b>简单易用：</b>该软件具有直观的用户界面，使用户能够轻松理解和操作。只需几个简单的步骤，用户就可以选择要压缩的图像文件，设置压缩参数，并开始压缩。即使对于没有技术背景的用户，也能够轻松上手。
+                    </p>
+                    <p><b>批量处理：</b>ImageShrink支持批量处理多个图像文件，使用户能够一次性压缩多个图像，可以节省大量时间和精力，而不必一个个地处理每个图像文件。</p>
+                    <p><b>支持多平台：</b>ImageShrink同时支持Windows和macOS操作系统以及多语言，用户可以在不同的设备上使用该软件。</p>
+                    <br />
+                </div>
+            </div>
+            <div class="software-info-item">
+                <span class="software-info-item-title">更新日志</span>
+                <div class="border-bottom"></div>
+                <div class="mt-4">
+                    <div class="mb-2">
+                        <p><b>v1.1</b> - 2023-8-3</p>
+                        <p>修复已知bug</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer"></div>
+</body>
+
+</html>
