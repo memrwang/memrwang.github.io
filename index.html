@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿龙的频道</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- jquery -->
+    <script src="/assets/js/jquery-3.7.0.min.js"></script>
+    <!-- bootstrap -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- style -->
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- ialong-icon -->
+    <link rel="stylesheet" href="/assets/ialong-icon/iconfont.css">
+    <script>
+        $(document).ready(function () {
+            $("#header").load("/layouts/header.html");
+            $("#footer").load("/layouts/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 mx-auto mb-4">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="/software/imageshrink.html" target="_blank"><img src="/assets/banner/banner-imageshrink.png" class="d-block w-100"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="/software/get-randpass.html" target="_blank"><img src="/assets/banner/banner-get-randpass.png" class="d-block w-100"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-body mx-auto text-center">
+                        <img class="avatar mb-4" src="/assets/images/avatar-user.png" alt="" width="128" height="128">
+                        <h4 class="card-title mb-4">龍</h4>
+                        <h6 class="card-subtitle mb-4 text-body-secondary">Hi，欢迎来到我的小站</h6>
+                        <p class="card-text">发布个人开发的开源项目</p>
+                        <p class="card-text">技术栈：C#、Swift、PHP</p>
+                        <div class="card-me mb-3">
+                            <a href="https://space.bilibili.com/1699511818" target="_blank"><i
+                                    class="fs-2 mb-3 p-1 m-1 text-dark ialong-icon icon-bilibili"></i></a>
+                            <a href="https://youtube.com/@ialong" target="_blank"><i
+                                    class="fs-2 mb-3 p-1 m-1 text-dark ialong-icon icon-youtube"></i></a>
+                            <a href="mailto:ialongup@gmail.com" target="_blank"><i
+                                    class="fs-2 mb-3 p-1 m-1 text-dark ialong-icon icon-email"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer"></div>
+</body>
+
+</html>
